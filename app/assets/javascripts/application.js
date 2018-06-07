@@ -10,6 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// turn.jsを使うための記述
+//= require jquery
+//= require_tree ../../../vendor/assets/javascripts/.
+//= require_directory .
+
 //= require rails-ujs
+//= require jquery.turbolinks
 //= require turbolinks
 //= require_tree .
+
